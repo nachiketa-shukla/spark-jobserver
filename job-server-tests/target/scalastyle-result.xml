@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="5.0">
+ <file name="/home/nachiketa/software/spark-jobserver/job-server-tests/src/spark.jobserver/SparkJob.scala">
+  <error column="6" line="10" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^([+-/\\*]|[a-z][A-Za-z0-9]*)$'"></error>
+ </file>
+</checkstyle>
