@@ -7,7 +7,7 @@
 		revision="0.3.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoverage, scoverage-test"
-		date="20140723002234"/>
+		date="20140731014730"/>
 	<dependencies>
 		<module organisation="io.netty" name="netty">
 			<revision name="3.6.6.Final" status="release" pubdate="20140204231540" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://netty.io/" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="6">
@@ -83,7 +83,7 @@
 			<revision name="2.10.4" status="release" pubdate="20140319031629" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.4/" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="0">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
          "/>
-				<metadata-artifact status="successful" details="" size="2044" time="1232" location="/home/nachiketa/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="true" original-local-location="/home/nachiketa/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
+				<metadata-artifact status="successful" details="" size="2044" time="1438" location="/home/nachiketa/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml" searched="true" original-local-location="/home/nachiketa/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.4/scala-library-2.10.4.pom"/>
 				<caller organisation="ooyala.cnd" name="job-server-tests" conf="compile" rev="2.10.4" rev-constraint-default="2.10.4" rev-constraint-dynamic="2.10.4" callerrev="0.3.1"/>
 				<artifacts>
 					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7126372" time="0" location="/home/nachiketa/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.4.jar">

@@ -4,7 +4,7 @@
 		module="spark-jobserver_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20140723001835"
+		publication="20140731014000"
 	>
 		<description>
 		spark-jobserver

@@ -7,7 +7,7 @@
 		revision="0.3.1"
 		conf="scoverage"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoverage, scoverage-test"
-		date="20140723002234"/>
+		date="20140731014730"/>
 	<dependencies>
 		<module organisation="org.scoverage" name="scalac-scoverage-plugin_2.10">
 			<revision name="0.98.0" status="release" pubdate="20140401034953" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scoverage/scalac-scoverage-plugin" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">

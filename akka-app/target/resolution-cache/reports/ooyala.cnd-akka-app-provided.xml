@@ -7,15 +7,15 @@
 		revision="0.3.1"
 		conf="provided"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool, scoverage, scoverage-test"
-		date="20140723001837"/>
+		date="20140731014707"/>
 	<dependencies>
 		<module organisation="com.typesafe.akka" name="akka-slf4j_2.10">
-			<revision name="2.2.4" status="release" pubdate="20140304194516" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="default(compile), default, compile, runtime, master" position="0">
+			<revision name="2.2.4" status="release" pubdate="20140304194516" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="default(compile), default, compile, runtime, master" position="0">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="2520" time="1266" location="/home/nachiketa/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/ivy-2.2.4.xml" searched="true" original-local-location="/home/nachiketa/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/ivy-2.2.4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.4/akka-slf4j_2.10-2.2.4.pom"/>
+				<metadata-artifact status="no" details="" size="3029" time="0" location="/home/nachiketa/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/ivy-2.2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.4/akka-slf4j_2.10-2.2.4.pom"/>
 				<caller organisation="ooyala.cnd" name="akka-app" conf="provided" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="0.3.1"/>
 				<artifacts>
-					<artifact name="akka-slf4j_2.10" type="bundle" ext="jar" status="successful" details="" size="14495" time="1857" location="/home/nachiketa/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/bundles/akka-slf4j_2.10-2.2.4.jar">
+					<artifact name="akka-slf4j_2.10" type="bundle" ext="jar" status="no" details="" size="14495" time="0" location="/home/nachiketa/.ivy2/cache/com.typesafe.akka/akka-slf4j_2.10/bundles/akka-slf4j_2.10-2.2.4.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-slf4j_2.10/2.2.4/akka-slf4j_2.10-2.2.4.jar"/>
 					</artifact>
 				</artifacts>
@@ -33,12 +33,12 @@
 			</revision>
 		</module>
 		<module organisation="com.typesafe.akka" name="akka-actor_2.10">
-			<revision name="2.2.4" status="release" pubdate="20140304194315" resolver="public" artresolver="public" homepage="http://akka.io" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="1">
+			<revision name="2.2.4" status="release" pubdate="20140304194315" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://akka.io" downloaded="false" searched="false" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="1">
 				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
-				<metadata-artifact status="successful" details="" size="1908" time="1298" location="/home/nachiketa/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.2.4.xml" searched="true" original-local-location="/home/nachiketa/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.2.4.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.4/akka-actor_2.10-2.2.4.pom"/>
+				<metadata-artifact status="no" details="" size="2638" time="0" location="/home/nachiketa/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/ivy-2.2.4.xml" searched="false" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.4/akka-actor_2.10-2.2.4.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="2.2.4"/>
 				<artifacts>
-					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="successful" details="" size="2693343" time="14100" location="/home/nachiketa/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.4.jar">
+					<artifact name="akka-actor_2.10" type="jar" ext="jar" status="no" details="" size="2693343" time="0" location="/home/nachiketa/.ivy2/cache/com.typesafe.akka/akka-actor_2.10/jars/akka-actor_2.10-2.2.4.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/com/typesafe/akka/akka-actor_2.10/2.2.4/akka-actor_2.10-2.2.4.jar"/>
 					</artifact>
 				</artifacts>
@@ -60,11 +60,11 @@
 			<revision name="2.10.2" status="release" pubdate="20130606233543" resolver="public" artresolver="public" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.10.2/" downloaded="true" searched="true" default="false" conf="compile, master(*), runtime, compile(*), runtime(*), master" position="2">
 				<license name="BSD-like" url="http://www.scala-lang.org/downloads/license.html
          "/>
-				<metadata-artifact status="successful" details="" size="2044" time="6429" location="/home/nachiketa/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml" searched="true" original-local-location="/home/nachiketa/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.pom"/>
+				<metadata-artifact status="successful" details="" size="2044" time="6580" location="/home/nachiketa/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml" searched="true" original-local-location="/home/nachiketa/.ivy2/cache/org.scala-lang/scala-library/ivy-2.10.2.xml.original" origin-is-local="false" origin-location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.pom"/>
 				<caller organisation="com.typesafe.akka" name="akka-slf4j_2.10" conf="default, compile, runtime, master" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.4"/>
 				<caller organisation="com.typesafe.akka" name="akka-actor_2.10" conf="compile, runtime" rev="2.10.2" rev-constraint-default="2.10.2" rev-constraint-dynamic="2.10.2" callerrev="2.2.4"/>
 				<artifacts>
-					<artifact name="scala-library" type="jar" ext="jar" status="successful" details="" size="7121818" time="60584" location="/home/nachiketa/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.2.jar">
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="7121818" time="0" location="/home/nachiketa/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.2.jar">
 						<origin-location is-local="false" location="http://repo1.maven.org/maven2/org/scala-lang/scala-library/2.10.2/scala-library-2.10.2.jar"/>
 					</artifact>
 				</artifacts>

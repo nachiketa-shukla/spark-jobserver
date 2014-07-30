@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="5.0">
- <file name="/home/nachiketa/software/spark-jobserver/job-server/src/spark.jobserver/io/JobSqlDAO.scala">
+ <file name="/home/nachiketa/software/spark-jobserver-ooyala/job-server/src/spark.jobserver/JobManagerActor.scala">
+  <error line="102" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 110 characters"></error>
+  <error column="6" line="186" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"></error>
+ </file>
+ <file name="/home/nachiketa/software/spark-jobserver-ooyala/job-server/src/spark.jobserver/io/JobSqlDAO.scala">
   <error column="8" line="23" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"></error>
   <error column="8" line="24" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"></error>
   <error column="8" line="25" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"></error>
@@ -18,11 +22,7 @@
   <error column="8" line="49" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"></error>
   <error column="8" line="50" source="org.scalastyle.scalariform.PublicMethodsHaveTypeChecker" severity="warning" message="Public method must have explicit type"></error>
  </file>
- <file name="/home/nachiketa/software/spark-jobserver/job-server/src/spark.jobserver/JobManagerActor.scala">
-  <error line="102" source="org.scalastyle.file.FileLineLengthChecker" severity="warning" message="File line length exceeds 110 characters"></error>
-  <error column="6" line="186" source="org.scalastyle.scalariform.ReturnChecker" severity="warning" message="Avoid using return"></error>
- </file>
- <file name="/home/nachiketa/software/spark-jobserver/job-server/src/spark.jobserver/SparkJob.scala">
+ <file name="/home/nachiketa/software/spark-jobserver-ooyala/job-server/src/spark.jobserver/SparkJob.scala">
   <error column="6" line="10" source="org.scalastyle.scalariform.MethodNamesChecker" severity="warning" message="Method name does not match the regular expression '^([+-/\\*]|[a-z][A-Za-z0-9]*)$'"></error>
  </file>
 </checkstyle>
